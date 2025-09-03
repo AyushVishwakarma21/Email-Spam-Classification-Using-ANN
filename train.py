@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from tensorflow.keras.models import save_model
+from tensorflow.keras.models import save_model # type: ignore
 import os
 from src.evaluate import evaluate_model
 

@@ -1,7 +1,7 @@
 import re
 import pickle
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.text import Tokenizer # pyright: ignore[reportMissingImports]
+from tensorflow.keras.preprocessing.sequence import pad_sequences # type: ignore
 
 def clean_text(text):
     """

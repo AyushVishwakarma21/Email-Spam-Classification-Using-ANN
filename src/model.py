@@ -1,7 +1,7 @@
 # model.py
 
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Embedding, Conv1D, GlobalMaxPooling1D, Dense, Dropout
+from tensorflow.keras.models import Sequential # type: ignore
+from tensorflow.keras.layers import Embedding, Conv1D, GlobalMaxPooling1D, Dense, Dropout # type: ignore
 
 def build_cnn_model(vocab_size=10000, embedding_dim=100, max_len=200):
     """

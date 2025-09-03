@@ -1,4 +1,4 @@
-from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model # type: ignore
 from src.preprocessing import clean_text, pad_text_sequences, load_tokenizer
 
 MAX_LEN = 200
