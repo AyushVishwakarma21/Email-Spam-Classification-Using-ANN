@@ -13,7 +13,7 @@ from src.model import build_cnn_model
 os.makedirs("models", exist_ok=True)
 
 # 1. Load data
-df = pd.read_csv('data/emails.csv')
+df = pd.read_csv('data\EmailSpamDataset.csv')
 df['clean_text'] = df['text'].apply(clean_text)
 labels = df['label'].values
 
